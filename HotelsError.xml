@@ -4,5 +4,25 @@
 [Start Date]: 4/2/25
 
 [Description]:
-    Copy of Hotels.xml with errors injected
+    XML file containing the Incorrect defined hotel data
 -->
+
+<!---->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <!--Defined Hotel Structure, Rating Required-->
+  <Hotel>
+    <Name>Westin</Name>
+    <Name>Westin</Name>
+
+    <!--Address-->
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
