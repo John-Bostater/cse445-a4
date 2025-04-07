@@ -18,7 +18,7 @@
     <Phone>800-937-8461</Phone>
 
     <!--Address-->
-    <Address NearstAirport="Sky Habor">
+    <Address NearestAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
