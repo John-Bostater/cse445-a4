@@ -7,11 +7,10 @@
     XML file containing the Incorrect defined hotel data
 -->
 
-<!---->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
   
-  <!--Defined Hotel Structure, Rating Required-->
+  <!--Hotel #1-->
   <Hotel>
     <Name>Westin</Name>
     <Name>Westin</Name>
@@ -23,6 +22,150 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #2-->
+  <Hotel Rating="3.9">
+    <Name>Holiday Inn Express</Name>
+    <Phone>480-831-9800</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix-Mesa Gateway">
+      <Number>1520</Number>
+      <Street>S Power Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85206</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #3-->
+  <Hotel Rating="4.8">
+    <Name>Hilton Garden Inn</Name>
+    <Phone>602-716-9900</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>342</Number>
+      <Street>N 44th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85008</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #4-->
+  <Hotel Rating="4.5">
+    <Name>Marriott Scottsdale</Name>
+    <Phone>480-945-1550</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Scottsdale Airport">
+      <Number>16770</Number>
+      <Street>N Perimeter Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85260</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #5-->
+  <Hotel Rating="3.7">
+    <Name>Comfort Inn</Name>
+    <Phone>480-345-8585</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix-Mesa Gateway">
+      <Number>1625</Number>
+      <Street>S 52nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #6-->
+  <Hotel Rating="4.0">
+    <Name>Hyatt Place</Name>
+    <Phone>480-499-0221</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>7300</Number>
+      <Street>E 3rd Ave</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #7-->
+  <Hotel Rating="4.3">
+    <Name>Residence Inn</Name>
+    <Phone>480-756-2122</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>5075</Number>
+      <Street>S Priest Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #8-->
+  <Hotel Rating="4.1">
+    <Name>Courtyard by Marriott</Name>
+    <Phone>480-966-2800</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>601</Number>
+      <Street>S Ash Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #9-->
+  <Hotel Rating="4.6">
+    <Name>DoubleTree by Hilton</Name>
+    <Phone>480-967-1441</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>2100</Number>
+      <Street>S Priest Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+
+
+  <!--Hotel #10-->
+  <Hotel Rating="3.8">
+    <Name>La Quinta Inn</Name>
+    <Phone>480-967-4465</Phone>
+
+    <!--Address-->
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>911</Number>
+      <Street>S 48th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85044</Zip>
     </Address>
   </Hotel>
 </Hotels>
